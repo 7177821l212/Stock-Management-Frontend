@@ -1,0 +1,55 @@
+/* About.css */
+.hover h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 3cm;
+  margin-top: 1cm;
+  font-family: Roboto;
+}
+.home-container {
+  position: relative;
+}
+
+.blinking-pointer {
+  display: inline-block;
+  margin-left: 5px; /* Adjust the margin as needed */
+  animation: blink 1s infinite; /* You can adjust the animation duration */
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.heading .h1{
+  margin-top: 3cm;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 20px;
+  font-family: Playfair;
+  
+}
+.heading img{
+  border: 1px solid #444141;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-left: 2cm;
+}
+.heading .h2
+{ gap: 1cm;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Playfair;
+
+}
+.heading .h3
+{ gap: 1cm;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Playfair;
+
+}

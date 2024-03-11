@@ -1,0 +1,48 @@
+.contain {
+  background-image: url(../Tittle/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; /* Use flexbox to arrange items horizontally */
+  justify-content: space-between; /* Add space between items */
+  padding: 20px; /* Adjust padding for outer container */
+}
+
+.ContactUs-container {
+  margin-top: 5cm;
+  padding: 5px;
+  background-color: #333131;
+}
+
+.Copyright-text p {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+.ContactUs p {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.ContactUs h1 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.img1 {
+  gap: 2px;
+}
+
+.move {
+  margin-top: 1cm;
+  padding: 5px;
+  width: 25cm;
+  margin-left: 8cm;
+  border-radius: 20px;
+  background-color: rgb(222, 212, 180);
+}
+
+.card-container {
+  margin-bottom: 0; 
+}

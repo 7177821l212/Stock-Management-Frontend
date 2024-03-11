@@ -1,0 +1,63 @@
+
+.home-container {
+    display: flex;
+    background-image: url(../Tittle/main.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    margin-top: 5cm;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    margin-top: -2%;
+    margin-top: 25px;
+  }
+  
+  .content {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 2cm;
+    height: 18cm;
+  }
+  
+  .motto-box {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 2cm;
+  }
+  
+  .motto {
+    text-align: center;
+    background-color:  #ffffff;
+    border-radius: 8px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    margin-left: 5cm;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slogan {
+    font-style: italic;
+    color: #000000;
+  }
+  .mot
+  {
+    color: #000000;
+  }
+  
+  .motto:hover {
+    transform: scale(1.1); 
+  background-color: #ed5c5c;
+  }
+
+  
