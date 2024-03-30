@@ -1,4 +1,4 @@
-/* About.css */
+
 .hover h1{
   font-size: 30px;
   font-weight: bold;
@@ -12,8 +12,8 @@
 
 .blinking-pointer {
   display: inline-block;
-  margin-left: 5px; /* Adjust the margin as needed */
-  animation: blink 1s infinite; /* You can adjust the animation duration */
+  margin-left: 5px;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {
